@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my @ARGV    = <STDIN>;
+my $counter = 0;
+my $size    = length scalar @ARGV;
+
+for my $i (@ARGV) {
+    printf("%${size}d %s", $counter, $i);
+    $counter += 1;
+}
