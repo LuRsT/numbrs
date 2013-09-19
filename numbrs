@@ -24,11 +24,11 @@
 use strict;
 use warnings;
 
-my @ARGV    = <STDIN>;
+my @stdin   = <STDIN>;
 my $counter = 1;
-my $size    = length scalar @ARGV;
+my $size    = length scalar @stdin;
 
-for my $i (@ARGV) {
+for my $i ( @stdin ) {
     printf("%${size}d %s", $counter, $i);
     $counter += 1;
 }
