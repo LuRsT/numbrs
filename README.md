@@ -35,18 +35,16 @@ write access to one of them to put the file there and give it execution permissi
 
 ### Number `cat` output:
 
-    $ cat numbrs | numbrs
-     1 #!/usr/bin/perl
-     2
-     3 use strict;
-     4 use warnings;
-     5
-     6 my @ARGV    = <STDIN>;
-     7 my $counter = 1;
-     8 my $size    = length scalar @ARGV;
-     9
-    10 for my $i (@ARGV) {
-    11     printf("%${size}d %s", $counter, $i);
-    12     $counter += 1;
-    13 }
+    $ cat .git/config | numbrs
+    1 [core]
+    2   repositoryformatversion = 0
+    3   filemode = true
+    4   bare = false
+    5   logallrefupdates = true
+    6 [remote "origin"]
+    7   url = git@github.com:LuRsT/numbrs.git
+    8   fetch = +refs/heads/*:refs/remotes/origin/*
+    9 [branch "master"]
+    10  remote = origin
+    11  merge = refs/heads/master
 
