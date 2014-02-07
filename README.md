@@ -5,7 +5,7 @@ it to `numbrs`.
 
 ## Instalation:
 
-The only requirement for this script is perl, which, if you're using Linux, you
+The only requirement for this script is `awk`, which, if you're using Linux, you
 most certainly already have.
 Just put the file in one of the many paths that your `$PATH` already has,
 hopefully, you'll have write access to one of them to put the file there and
