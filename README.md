@@ -1,16 +1,20 @@
 # numbrs
 
-See the line numbers of whathever it is that's going on in STDOUT by piping it to `numbrs`.
+See the line numbers of whathever it is that's going on in `STDOUT` by piping
+it to `numbrs`.
 
 ## Instalation:
 
-The only requirement for this script is perl, which, if you're using Linux, you most certainly
-already have.
-Just put the file in one of the many paths that your `$PATH` already has, hopefully, you'll have
-write access to one of them to put the file there and give it execution permission, basically this:
+The only requirement for this script is perl, which, if you're using Linux, you
+most certainly already have.
+Just put the file in one of the many paths that your `$PATH` already has,
+hopefully, you'll have write access to one of them to put the file there and
+give it execution permission, basically this:
 
-    $ mv numbrs ~/bin
+    $ curl https://raw.github.com/LuRsT/numbrs/master/numbrs > ~/bin/numbrs
     $ chmox +x ~/bin/numbrs
+
+Note: This has the requirement of `~/bin` being in your `$PATH`
 
 ## Example usage:
 
