@@ -52,3 +52,7 @@ Note: This has the requirement of `~/bin` being in your `$PATH`
     10  remote = origin
     11  merge = refs/heads/master
 
+An alternative to this is if you're doing it with a fixed number of lines (like
+all of the examples above), you can just use `less -N`, however, if you want to
+do that in a stream e.g. using `tail -F`, this script is better suited for
+that.
