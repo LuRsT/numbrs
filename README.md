@@ -12,7 +12,7 @@ hopefully, you'll have write access to one of them to put the file there and
 give it execution permission, basically this:
 
     $ curl https://raw.github.com/LuRsT/numbrs/master/numbrs > ~/bin/numbrs
-    $ chmox +x ~/bin/numbrs
+    $ chmod +x ~/bin/numbrs
 
 Note: This has the requirement of `~/bin` being in your `$PATH`
 
