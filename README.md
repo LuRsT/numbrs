@@ -3,7 +3,7 @@
 See the line numbers of whathever it is that's going on in `STDOUT` by piping
 it to `numbrs`.
 
-NOTE: I just found about the `nl` command thanks to @deltaray, so this script
+NOTE: I just found about the `nl` command thanks to deltaray#1, so this script
 can be replaced by `nl -ba` which should come with your OS.
 
 ## Instalation:
