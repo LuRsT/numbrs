@@ -3,6 +3,9 @@
 See the line numbers of whathever it is that's going on in `STDOUT` by piping
 it to `numbrs`.
 
+NOTE: I just found about the `nl` command thanks to @deltaray, so this script
+can be replaced by `nl -ba` which should come with your OS.
+
 ## Instalation:
 
 The only requirement for this script is `awk`, which, if you're using Linux, you
