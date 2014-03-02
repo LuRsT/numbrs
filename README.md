@@ -7,7 +7,7 @@ NOTE: I just found about the `nl` command thanks to
 [deltaray](https://github.com/deltaray) on [#1](https://github.com/LuRsT/numbrs/issues/1), so this script can be replaced by
 `nl -ba` which should come with your OS.
 
-## Instalation:
+## Installation:
 
 The only requirement for this script is `awk`, which, if you're using Linux, you
 most certainly already have.
